@@ -10,7 +10,7 @@
   </PropertyGroup>
    
   <ItemGroup>
-    <AllProjects Include="$(MSBuildProjectDirectory)\*.csproj" />
+    <AllProjects Include="$(MSBuildProjectDirectory)\MvcApplication2.Tests\MvcApplication2.Tests.csproj" />
   </ItemGroup>
 
   <Target Name="Run">

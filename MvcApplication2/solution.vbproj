@@ -31,5 +31,5 @@
         <NUnit ToolPath="$(NUnit-ToolPath)" DisableShadowCopy="true" Assemblies="MvcApplication2.Tests\bin\Debug\MvcApplication2.Tests.dll" OutputXmlFile="$(MSBuildProjectDirectory)\qhode\testresults\test-results.xml" />
   </Target>
         
- 
+ <Target Name="Build" DependsOnTargets="Run;"/>
 </Project>
